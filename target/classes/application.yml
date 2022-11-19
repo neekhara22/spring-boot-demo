@@ -1,0 +1,54 @@
+server:
+  port: '8082'
+#
+#spring:
+#  profiles:
+#    active:dev
+
+---
+
+spring:
+#  profiles:dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/department
+    password: Akash@2202
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+welcome:
+  message: Welcome to the demo project of Springboot!!
+#
+#  ---
+#
+#  spring:
+#    profiles:qa
+#    datasource:
+#      driver-class-name: com.mysql.cj.jdbc.Driver-qa
+#      username: root
+#      url: jdbc:mysql://localhost:3306/department
+#      password: Akash@2202
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: 'true'
+#  welcome:
+#    message: Welcome to the demo project of Springboot!!
+#
+#    ---
+#
+#    spring:
+#      profiles:prod
+#      datasource:
+#        driver-class-name: com.mysql.cj.jdbc.Driver-prod
+#        username: root
+#        url: jdbc:mysql://localhost:3306/department
+#        password: Akash@2202
+#      jpa:
+#        hibernate:
+#          ddl-auto: update
+#        show-sql: 'true'
+#    welcome:
+#      message: Welcome to the demo project of Springboot!!

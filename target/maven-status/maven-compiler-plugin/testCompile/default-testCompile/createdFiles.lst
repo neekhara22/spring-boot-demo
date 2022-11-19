@@ -1,0 +1,4 @@
+com\code\springboot\demo\service\DepartmentServiceTest.class
+com\code\springboot\demo\repository\DepartmentRepositoryTest.class
+com\code\springboot\demo\SpringBootDemoApplicationTests.class
+com\code\springboot\demo\controller\DepartmentControllerTest.class
